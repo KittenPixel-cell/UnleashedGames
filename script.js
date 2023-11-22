@@ -906,7 +906,7 @@ var savedTab = localStorage.getItem('activeTab');
 if (savedIcon && savedTitle && savedTab) {
     cloak(savedIcon, savedTitle, savedTab);
 } else {
-    cloak('./assets/phantom.png', 'Phantom Games', 'phantom-set');
+    cloak('./assets/phantom.png', 'Unleashed Games', 'unleashed-set');
 }
   
 var record = document.getElementById('record');
