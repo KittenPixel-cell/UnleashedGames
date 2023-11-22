@@ -1,0 +1,221 @@
+<html>
+<html lang="en">
+<head>
+    <script async src="https://stats.delusionz.xyz/script.js" data-website-id="d579a023-0507-4e0c-9de2-1e7d308e192b"></script>	
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unleashed Games</title>
+    <link rel="canonical" href="https://unleashedmathgames.netlify.app/"/>
+    <meta property="og:title" content="Unleashed Games">
+    <meta name="description" content="Unleashed Games, the BEST place to find fun unblocked games!">
+    <meta name="og:description" content="Unleashed Games, the BEST place to find fun unblocked games!">
+    <meta name="theme-color" content="#2c7ffc">
+    <link rel="apple-touch-icon" href="assets/logo.png">
+    <meta property="og:image" content="assets/logo.png" />
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZT64FYRXR6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-ZT64FYRXR6');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7201486962634799" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="manifest" href="./manifest.webmanifest">
+</head>
+<body>
+    <div id="clickbox"></div>
+    <div id="navigation">
+        <a href="/"><h1>Unleashed<span>Games</span></h1></a>
+        <img src="assets/logo.png" alt="mobile icon" class="mobile-icon" onclick="javascript:location.reload();">
+        <div class="search">
+            <input type="text" placeholder="Search" id="search" autocomplete="off" oninput='search()' aria-label="search input">
+            <button onclick="search()" aria-label="search button" id="settings-button-div">
+                <i class="fas fa-search" role="presentation"></i>
+            </button>
+        </div>
+        <div id="searchResults"></div>
+        <div class="icons">
+            <div class="icon" onclick="settings()">
+                <i class="fa-solid fa-gear" aria-label="open settings button" role="button" id="settings-button"></i>
+            </div>
+        </div>
+    </div>
+    <div class="top" id="top">
+        <div class="main" id="main">
+            <h1>Unleashed<span><br>Games</span></h1>
+            <p id="paragraph">Unleashed Games, the BEST place to find fun unblocked games!</p>
+            <button id="start-button">Get Started</button>
+        </div>
+    </div>
+    <div id="popup">
+        <div id="clickBox"></div>
+        <div class="content" id="popupContent"></div>
+    </div>
+    <div id="settings">
+        <div class="taskbar">
+            <div class="option" data-page="plugins">
+                <img src="./assets/store.png" alt="" class="task-icon">
+                <h3>Hacks</h3>
+            </div>
+            <div class="option active" data-page="general">
+                <img src="./assets/cog.png" alt="" class="task-icon">
+                <h3>General</h3>
+            </div>
+            <div class="option" data-page="security">
+                <img src="./assets/lock.png" alt="" class="task-icon">
+                <h3>Security</h3>
+            </div>
+        </div>
+        <div id="pages">
+            <div id="plugins" class="page">
+                <div class="plugins" id="game-hacks"></div>
+            </div>
+            <div id="general" class="page">
+                <div class="tab-cloak">
+                    <h2>Tab Cloak</h2>
+                    <p>Pick or remove a tab cloak below!</p>
+                    <hr>
+                    <div class="icons">
+                        <div id="Unleashed-set">
+                            <img src="assets/logo.png" alt="icon" draggable="false" onclick="cloak('./assets/logo.png', 'Unleashed Games', 'Unleashed-set')">
+                            <i class="fa-solid fa-xmark-large"></i>
+                        </div>
+                        <div id="classroom">
+                            <img src="assets/classroom.png" alt="icon" draggable="false" onclick="cloak('./assets/classroom.png', 'Classes', 'classroom')">
+                            <i class="fa-solid fa-xmark-large"></i>
+                        </div>
+                        <div id="drive">
+                            <img src="assets/drive.png" alt="icon" draggable="false" onclick="cloak('./assets/drive.png', 'My Drive - Google Drive', 'drive')">
+                            <i class="fa-solid fa-xmark-large"></i>
+                        </div>
+                        <div id="google">
+                            <img src="assets/google.png" alt="icon" draggable="false" onclick="cloak('./assets/google.png', 'Google', 'google')">
+                            <i class="fa-solid fa-xmark-large"></i>
+                        </div>
+                        <div id="gmail">
+                            <img src="assets/gmail.png" alt="icon" draggable="false" onclick="cloak('./assets/gmail.png', 'Inbox (6) - Gmail', 'gmail')">
+                            <i class="fa-solid fa-xmark-large"></i>
+                        </div>
+                        <div id="clever">
+                            <i class="fa-solid fa-xmark-large"></i>
+                            <img src="assets/clever.png" alt="icon" draggable="false" onclick="cloak('./assets/clever.png', 'Clever | Portal', 'clever')">
+                        </div>
+                    </div>                    
+                </div>
+                <div class="safety-key">
+                    <div class="key">
+                        <h2>]</h2>
+                    </div>
+                    <h2 class="record" id="record"><i class="fa-solid fa-circle-microphone-lines"></i>Record Keystroke</h2>
+                    <h3 id="save">Saved!</h3>
+                    <p>Above is a <span>panic key</span>, a key when you press when a Teacher is coming so you can easily go to a school work site.</p>
+                    <div class="site-options">
+                        <div class="site-option active" id="gc">
+                            <img src="./assets/classroom.png" alt="classroom">
+                            <h2>Google Classroom</h2>
+                        </div>
+                        <div class="site-option" id="c">
+                            <img src="./assets/canvas.png" alt="canvas">
+                            <h2>Canvas</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="security" class="page">Security coming soon.</div>
+        </div>
+    </div>   
+    <div id="game-banner" class="game-banner">
+    </div>
+    <div id="game-banner-right" class="game-banner"> 
+    </div>
+    <div id="game-ad"> 
+    </div>
+    <div id="game-frame">
+        <div class="game-content" id="game-content">
+            <div class="flexy">
+                <h1 id="game-name"></h1>
+                <div class="controls" id="controls">
+                    <i class="fa-solid fa-circle-xmark" onclick="closeControls(event)" aria-label="close button" role="button"></i>
+                    <i class="fa-solid fa-solid fa-expand" aria-label="maximize button" role="button" onclick="fullScreenGame()"></i>
+                    <span id="hack">
+                        <i class="fa-solid fa-code hack"></i>
+                        <h3>Run Hack</h3>
+                    </span>
+                </div>
+            </div>
+            <p id="game-desc"></p> 
+            <div class="desc-ad">
+            <script type="text/javascript">
+                atOptions = {
+                    'key' : 'b6c22efff7d065454c28f4f7e292183f',
+                    'format' : 'iframe',
+                    'height' : 50,
+                    'width' : 320,
+                    'params' : {}
+                };
+                document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitablecreativeformat.com/b6c22efff7d065454c28f4f7e292183f/invoke.js"></scr' + 'ipt>');
+            </script></div>
+        </div>
+        <iframe src="" id="iframe"></iframe>
+        <div id="clickyBox"></div>
+        <div id="hoverMessage">Click to Exit game screen</div>
+    </div>
+    <div id="error">No Games Found.</div>
+    <div id="movies"></div>
+    <div id="loader"></div>
+    <div id="games">
+    </div>
+    <footer id="footer">
+        <main>
+            <hr>
+            <script type="text/javascript">
+                atOptions = {
+                    'key' : '54e20beb6c9c932b69c21c779435d9d3',
+                    'format' : 'iframe',
+                    'height' : 90,
+                    'width' : 728,
+                    'params' : {}
+                };
+                document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitablecreativeformat.com/54e20beb6c9c932b69c21c779435d9d3/invoke.js"></scr' + 'ipt>');
+            </script>
+            <h1>Unleashed<span>Games</span></h1>
+            
+           
+            <div class="content-wrapper">
+                <div class="left">
+                    <h2>Thanks to 3kh0 </span></a> for the games!</h2>
+                </div>
+                <div class="right">
+                    <div>
+                        <h2>LEGAL</h2>
+                        <a href="/other/terms.html">Terms of Service</a><br>
+                        <a href="/other/dmca.html">DMCA</a>
+                    </div>
+                    <div>
+                        <h2>OTHER</h1>
+                        <a href="/other/about.html">About</a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="partners">
+                <h1>Partners:</h1>
+                <div class="partner-container" id="pc">
+                    
+                </div>
+            </div>
+        </main>
+    </footer>    
+</body>
+</html>
+
+<script src="hacks.js"></script>
+<script src="script.js"></script>
